@@ -41,6 +41,8 @@
 
     <!-- URI生成。 -->
     <beans:import resource="common/uris.xml" />
+    
+    <beans:import resource="common/magic.xml"/>
 
     <!-- 综合设置。 -->
     <services:webx-configuration>

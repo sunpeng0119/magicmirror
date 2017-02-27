@@ -29,6 +29,13 @@
         <pl-valves:loop>
             <pl-valves:choose>
                 <when>
+                    <!-- target为riskService时，像后缀加json一样处理 -->
+                    <pl-conditions:target-condition
+                            name="/magicService$"/>
+                    <pl-valves:performScreen/>
+                    <pl-valves:renderResultAsJson/>
+                </when>
+                <when>
                     <!-- 执行带模板的screen，默认有layout。 -->
                     <pl-conditions:target-extension-condition extension="null" />
                     <pl-valves:performAction />

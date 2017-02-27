@@ -1,15 +1,30 @@
+<style type="text/css">
+
+    body{
+        background: black;
+        color: white;
+    }
+    #timeDiv{
+        clear:both;
+        position:absolute;
+        bottom:0px;
+        width:100%;
+        text-align: center;
+    }
+</style>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-#showHead ("My Simple Webx Application")
+#showHead ("MagicMirror")
 </head>
 
 <body #bodyAttributes ()>
 
 $screen_placeholder
 
+<div id="timeDiv">
 <hr/>
-<p>[<a href="$app1Link.setTarget("index")">Home</a>] [<a href="$app1Link">Dev Home</a>]</p>
-
+<p id="time">2017年2月26日</p>
+</div>
 </body>
 </html>
