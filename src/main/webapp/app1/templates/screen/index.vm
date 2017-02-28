@@ -1,4 +1,5 @@
 <script>
+    var url = top.location.hostname
     //获取当前时间
     function getNowFormatDate() {
         var date = new Date();
@@ -20,7 +21,7 @@
     
     function getWeather() {
         var weather = $.ajax({
-            url: "http://localhost:8099/magicService?serviceType=weather",
+            url: "http://"+url+":8080/magicService?serviceType=weather",
             type: 'get',
             dataType: 'json'
         }).done(function (data, status) {
