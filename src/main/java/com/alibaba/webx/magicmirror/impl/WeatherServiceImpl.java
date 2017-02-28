@@ -4,13 +4,8 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.webx.magicmirror.http.HttpClinetUntil;
 import com.alibaba.webx.magicmirror.service.IWeatherService;
 import com.alibaba.webx.magicmirror.vo.*;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.util.EntityUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.io.IOException;
 
 /**
  * Created by sunpeng on 2017/2/27.

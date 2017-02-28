@@ -3,18 +3,13 @@
     body{
         background: black;
         color: white;
-    }
-    #timeDiv{
-        clear:both;
-        position:absolute;
-        bottom:0px;
-        width:100%;
-        text-align: center;
+        overflow-x: hidden;
     }
 </style>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
 #showHead ("MagicMirror")
 </head>
 
@@ -22,9 +17,5 @@
 
 $screen_placeholder
 
-<div id="timeDiv">
-<hr/>
-<p id="time">2017年2月26日</p>
-</div>
 </body>
 </html>
