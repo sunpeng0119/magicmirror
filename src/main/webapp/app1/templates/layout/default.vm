@@ -1,6 +1,10 @@
 <style type="text/css">
-
+    @font-face {
+        font-family: HYQiHei-25J;
+        src: url("HYQiHei-25J.ttf");
+    }
     body{
+        font-family: HYQiHei-25J;
         background: black;
         color: white;
         overflow-x: hidden;
